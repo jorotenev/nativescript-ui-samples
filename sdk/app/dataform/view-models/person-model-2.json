@@ -1,6 +1,6 @@
 {
   "name": "John",
-  "age": 23,
+  "age": null,
   "email": "john@company.com",
   "city": "New York",
   "street": "5th Avenue",

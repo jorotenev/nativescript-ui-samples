@@ -1,8 +1,14 @@
 <navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded"
-    xmlns:df="nativescript-ui-dataform" xmlns="http://www.nativescript.org/tns.xsd">
+                        xmlns:df="nativescript-ui-dataform" xmlns="http://www.nativescript.org/tns.xsd">
+    <StackLayout>
 
-    <!-- >> dataform-metadata-xml -->
-    <df:RadDataForm id="myDataForm" source="{{ person }}" metadata="{{ personMetadata }}"/>
-    <!-- << dataform-metadata-xml -->
+        <!-- >> dataform-metadata-xml -->
+        <df:RadDataForm
+                id="myDataForm" source="{{ person }}" metadata="{{ personMetadata }}"
+                validaitonMode="Manual" commitMode="Manual"
+        />
+        <Button tap="tapped" text="go"></Button>
+        <!-- << dataform-metadata-xml -->
+    </StackLayout>
 
 </navigation:ExamplePage>

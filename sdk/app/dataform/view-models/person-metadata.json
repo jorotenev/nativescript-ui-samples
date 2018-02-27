@@ -1,9 +1,6 @@
 {
   "isReadOnly": false,
-  "commitMode": "Immediate",
-  "validationMode": "Immediate",
-  "propertyAnnotations":
-  [
+  "propertyAnnotations": [
     {
       "name": "name",
       "displayName": "Name",
